@@ -1,3 +1,39 @@
+
+## Backend (NestJS, PostgreSQL)
+### 3User Registration and Authentication:
+Secure user registration and login using JWT and Passport.
+User data is stored in PostgreSQL, including optional emergency contact details.
+### Real-Time Shelter Information:
+
+Database of verified shelters, storing details such as availability, capacity, and safety status.
+WebSockets or server-sent events provide real-time updates.
+### Interactive Map:
+
+Stores shelter coordinates in PostgreSQL.
+API endpoint provided for retrieving shelter data to be displayed on the map.
+### Emergency Alerts:
+
+Firebase Cloud Messaging (FCM) or similar service used for push notifications.
+Integration with a weather API for real-time weather updates and alerts.
+### Community Support:
+
+Allows users to report new shelters or unsafe conditions.
+Community-driven reviews and ratings for shelter safety and reliability.
+### Resource Allocation:
+
+Tracks resources available at each shelter, allowing for updates.
+Integration with aid organizations for streamlined resource distribution.
+### Offline Functionality:
+
+Server-side caching and synchronization for offline access.
+Provides downloadable maps and shelter lists through API endpoints.
+
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
