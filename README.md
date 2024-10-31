@@ -1,6 +1,6 @@
 
 ## Backend (NestJS, PostgreSQL)
-### 3User Registration and Authentication:
+### User Registration and Authentication:
 Secure user registration and login using JWT and Passport.
 User data is stored in PostgreSQL, including optional emergency contact details.
 ### Real-Time Shelter Information:
